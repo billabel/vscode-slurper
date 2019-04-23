@@ -1,0 +1,19 @@
+{
+  "name": "Slurper",
+  "scopeName": "source.slurper",
+  "filetypes": ["slurper"],
+  "patterns": [{ "include": "#slurper" }],
+  "repository": {
+    "slurper": {
+      "patterns": [
+        { "include": "#slurper-feature" },
+        { "include": "#slurper-chore" }
+      ]
+    },
+      "name": "slurper.group",
+      "patterns": [
+        { "include": "#slurper-bug" }
+      ]
+    }
+  }
+}

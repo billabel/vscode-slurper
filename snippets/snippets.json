@@ -1,0 +1,90 @@
+{
+  "Chore": {
+    "prefix": "!chore",
+    "body": [
+      "==",
+      "story_type:",
+      "  chore",
+      "name:",
+      "  $1",
+      "description:",
+      "  $2",
+      "labels:",
+      "  $3",
+      "",
+      ""
+    ],
+    "description": "insert a chore"
+  },
+  "Feature": {
+    "prefix": "!feature",
+    "body": [
+      "==",
+      "story_type:",
+      "  feature",
+      "name:",
+      "  $1",
+      "description:",
+      "  In order to $2",
+      "  As a $3",
+      "  I want to $4",
+      "",
+      "  - $5",
+      "",
+      "labels:",
+      "  $6",
+      "",
+      ""
+    ],
+    "description": "insert a feature"
+  },
+  "Epic": {
+    "prefix": "!epic",
+    "body": [
+      "==",
+      "story_type:",
+      "  epic",
+      "name:",
+      "  $1",
+      "description:",
+      "  $2",
+      "",
+      ""
+    ],
+    "description": "insert an epic"
+  },
+  "Release": {
+    "prefix": "!release",
+    "body": [
+      "==",
+      "story_type:",
+      "  release",
+      "name:",
+      "  $1",
+      "description:",
+      "  $2",
+      "labels:",
+      "  $3",
+      "",
+      ""
+    ],
+    "description": "insert a release"
+  },
+  "Bug": {
+    "prefix": "!bug",
+    "body": [
+      "==",
+      "story_type:",
+      "  bug",
+      "name:",
+      "  $1",
+      "description:",
+      "  When I $2",
+      "  I should see $3",
+      "  but I see $4",
+      "",
+      ""
+    ],
+    "description": "insert a bug"
+  }
+}

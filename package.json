@@ -1,0 +1,28 @@
+{
+    "name": "slurper",
+    "displayName": "slurper",
+    "description": "Easily write and edit stories in Visual Studio Code to import into Pivotal Tracker using Hashrocket's slurper gem.",
+    "version": "0.0.1",
+    "publisher": "Pragmatica",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+            "id": "yaml",
+            "extensions": [ ".slurper", ".yml" ],
+            "aliases": [ "yaml", "YAML", "slurper", "Slurper"]
+            }
+        ],
+        "snippets": [
+            {
+                "language": "yaml",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
